@@ -44,7 +44,7 @@ pip install pyinstaller
 Em seguida, navegue até o diretório onde está o script json_tree_viewer.py e execute o seguinte comando:
 
 ```shell
-pyinstaller --onefile json_tree_viewer.py
+pyinstaller --onefile main.py
 ```
 
 Isso criará um executável na pasta dist. Você pode executar o aplicativo diretamente a partir desse executável.
